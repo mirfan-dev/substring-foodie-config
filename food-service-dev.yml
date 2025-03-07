@@ -6,7 +6,7 @@ server:
 info:
   app:
     name: "Food Service"
-    description: "This is Food Service. We are developing right now. GitVersion..."
+    description: "This is Food Service. We are developing right now. GitVersion...keep on going developer"
     version: "1.0 Under Development"
 
   developer:
