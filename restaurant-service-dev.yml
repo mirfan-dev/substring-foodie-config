@@ -1,0 +1,13 @@
+server:
+  port: 9090
+
+
+info:
+  app:
+    name: "Restaurant Service"
+    description: "This is Restaurant Service. We are developing right now"
+    version: "1.0 Under Development"
+
+  developer:
+    name: "Md Irfan"
+    email: "irfan@example.com"

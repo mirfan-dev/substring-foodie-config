@@ -1,0 +1,39 @@
+server:
+  port: 9099
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/restaurantdb
+    username: user
+    password: user123
+    driver-class-name: org.postgresql.Driver
+
+
+    jpa:
+      hibernate:
+        ddl-auto: update  # Can be update, create, create-drop, or none
+      show-sql: true
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  # eureka configuration
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka/
+
+    instance:
+      hostname: localhost #LAPTOP-A5QB0QAD
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+info:
+  app:
+    name: "Restaurant Service"
+    description: "This is Restaurant Service. Ready to serve users."
+    version: "1.0 Production"
+
