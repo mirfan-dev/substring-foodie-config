@@ -3,7 +3,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/food_service
     username: root
-    password: root
+    password: "{cipher}1bc7d9c413b9165252bf378c78135fc96cc4b7a1e31c30f39204cebce9254f37"
     driver-class-name: com.mysql.cj.jdbc.Driver
 
     jpa:
